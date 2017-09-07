@@ -37,11 +37,11 @@ Youth Facilitator / Instructor Handbook: <a href="http://bit.ly/youth-facilitato
 
 1 Day to Go
 
-* Print Facilitator Guide, <a href="https://docs.google.com/document/d/1ngXh74VIzJTNLKaIPI4FnBT4j9XeuSDLPza8vH0divs/edit?usp=sharing">Code-Along Challenges</a>, and Solution Sheet (found in Activity List) to bring to the workshop.
+* Print the Guide, <a href="https://docs.google.com/document/d/1ngXh74VIzJTNLKaIPI4FnBT4j9XeuSDLPza8vH0divs/edit?usp=sharing">Code-Along Challenges</a>, and Solution Sheet (found in Activity List) to bring to the workshop.
 
 ## During the Workshsop
-* Have Facilitator Guide accessible throughout the workshop, follow along in the guide for support.
-* Use the slides to support the Kick-Off and Introduction.
+* Have the Guide accessible throughout the workshop, follow along for support.
+* Use the slides as support throughout the workshop.
 
 ## After the Workshop
 * Give yourself a pat on the back - You did it!
