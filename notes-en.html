@@ -25,7 +25,7 @@
 
     <section class="slide" data-toc data-markdown>
       <script type="text/template">
-        ##Lead Instructor Guide
+        ##Lead Instructor Notes
 
         ##Girls Learning Code: Generative Art with Processing
         <br>
@@ -138,33 +138,19 @@
               Q: When we draw a circle on paper, what are the chances it won't be exact/perfect? What are the chances when a computer draws the circle for us?</td>
             </tr><tr>
               <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
-              <td> Here's an example of a project created with Processing.</td>
+              <td> The first example is what we usually picture when we are graphing in math. Our canvas in Processing is a bit different - it looks like the second example, where the starting point is in the top, left corner.
+              </td>
             </tr><tr>
               <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
-              <td> The first example is what we usually picture when we are graphing in math. Our canvas in Processing is a bit different - it looks like the second example, where the starting point is in the top, left corner.
-              <br><br>
-              (Review X,Y coordinates using the Stretch &amp; Scuttle Unplugged Activity)</td>
+              <td> Processing was created with pre-set things that it can do. For example, it knows what "setup" and "draw" mean, because it was already programmed to know these things.</td>
             </tr><tr>
               <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
-              <td> Processing was created with pre-set things that it can do. For example, it knows what "setup" and "draw" mean, because it was already programmed to know these things.</td>
-            </tr>
-            <tr>
-              <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
-              <td> All of these functions are listed in the Processing Reference. If we want to know what Processing can do, or what it already knows, we can check here.
-              <br><br>
-              Throughout the workshop, if you want to figure out how to do something, check the reference first! You'll probably be able to find it here by looking for key words. (e.g. if you want to draw a rectangle)</td>
-            </tr><tr>
-              <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
-              <td> Take a minute to think to yourself, then share with 1-2 people sitting near you.
-              <br><br>
-              (After 1-2 minutes, have everyone refocus up front and raise their hand to share what they came up with.)</td>
-            </tr><tr>
-              <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
-              <td> Q: If we want something to change colours in our project, where should we put the code? (A: in "draw" b/c we need it to happen more than once)
+              <td> Q: What is sequence?
+              <br>A: The order in which something happens (first A, then B, then C, etc.)
               <br><br>
               Q: If we are drawing a face, for example, what would we draw first? (A: First the head / whatever we want to be at the back of the canvas, then the eyes, nose, etc..)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
               <td> Computers like to communicate in Binary, which is made up of 1’s and 0’s. Usually 1 = True, and 0 = False.
               <br><br>
               Example prompts:
@@ -173,15 +159,15 @@
               <br>IF it is summer…   ELSE...
               </td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
               <td> This is similar to algebra in math - where we need to solve for x. Except we get to decide what x equals, then have the computer remember it for us.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
               <td> Here, we are creating a new variable, which is a number (aka "int"), and we're making it equal 3.
               <br><br>
               (Have everyone stand up and go through the tasks as a group - e.g. jump 3 times together)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
               <td> Before we begin coding in Processing, here are some things to keep in mind.</td>
             </tr>
           </table>
@@ -191,7 +177,7 @@
 
         * Go through each step using the slides (after "Let's Get Coding!") while the group follows along.
         * Make sure everyone selects the "Processing.js" Mode (top, right under Settings)
-        * If there is a whiteboard, write down main functions as you go, as a reference for the work session (or have a mentor help out with this)
+        * If there is a whiteboard, write down main functions as you go, as a reference for the work session (or have a mentor help out with this). <i>Review keyboard shortcuts (ctrl+C, ctrl+V, ctrl+F) and post these near the front, as well.</i>
         * While working through the Code-Along, open up openprocessing.org in another tab and paste/type the text after each step - Click on Run (play icon) to preview
         * Have the <a href="https://docs.google.com/document/d/1ngXh74VIzJTNLKaIPI4FnBT4j9XeuSDLPza8vH0divs/edit?usp=sharing">Code-Along Challenges</a> handy for mentors to give to learners that are ahead
         * Show learners how to save their work ("Save" > Name project > "Submit") and remind them to save often!
@@ -204,81 +190,83 @@
               <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
             </tr>
             <tr>
-              <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
               <td> Time for our Code-Along!</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
               <td> We are using OpenProcessing to save our Processing sketches today. OpenProcessing is a free, online environment where you can share your digital art and explore projects created by other poeple. </td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
               <td> (Leave this slide up while learners log in)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
               <td> *Very important*: Be sure to select "Processing.js" mode (under Settings). The P5.js starting code will no longer work, so we can delete this.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
               <td> Type in this code, then click "Run" (play icon at top). This is how we set up our canvas.
               <br><br>
               Try changing the numbers from 600 to something else.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
               <td> Let's draw something! What does this code do?
               <br><br>
               *Side note*: Everything behind the //backslashes are comments - this is for us humans to remember what each line of code means. You don't need to copy all of the comments on our slides, but it is helpful to make comments in your code when you need a reminder of what something does. </td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/31.jpg" alt="slide"></td>
-              <td> Our last bit of code drew a circle! Change the numbers for each value to something else - see if you can draw a circle in the middle of your canvas.</td>
+              <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+              <td> If we want to know what Processing can do, or what it already knows, we can check here.
+              <br><br>
+              Throughout the workshop, if you want to figure out how to do something, check the reference first! You'll probably be able to find it here by looking for key words. (e.g. if you want to draw a rectangle)
+              <br><br>(Show learners how to use Ctrl+F to search for key words in the reference)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/32.jpg" alt="slide"></td>
-              <td> Time to add some colour (woo!). Each of these options have the letters R,G,B in brackets... What does that mean? (see next slide)</td>
+              <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+              <td> (Show learners where the ellipse is in the reference and encourage them to change the numbers for each value to something else - or try to draw another shape e.g. a rectangle)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
-              <td> (Open up colorpicker.com up front)
+              <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+              <td> Time to add some colour (woo!). Each of these options have the letters R,G,B in brackets... What does that mean?
+              <br><br>
+              (Open up colorpicker.com up front)
               <br><br>
               Q: What colour is (255,255,255)? A: White
-              <br><br>
-              Q: WHat colour is (0,0,0)? A: Black
+              <br>
+              Q: What colour is (0,0,0)? A: Black
               <br><br>
               RGB colours are additive, which means that adding full colour (255 of everything) makes white (pure light). When we take away all of the color we get black.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/34.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/31.jpg" alt="slide"></td>
               <td> We need to tell the computer what colour the circle is before we draw it. Try making two circles that are each a different colour. </td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/35.jpg" alt="slide"></td>
-              <td> Processing can track the x,y position of our mouse, then use that number in our sketch.
-                <br><br>
-                E.g. We can take the Y coordinate of our mouse, then make the circle's width = that number. So the closer to the top of the canvas, the smaller the circle. As we move down (and Y increases) the circle should get larger. - Try it out! </td>
-            </tr><tr>
-              <td><img src="framework/img/workshop/slides/36.jpg" alt="slide"></td>
-              <td> We can teach Processing something new by creating our own function!
-                <ol>
-                  <li>Let's name our function "paintbrush."</li>
-                  <li>Next, we need to tell the program what "paintbrush" means / looks like.</li>
-                  <li>Finally, we can call our new "paintbrush" function by typing it under "draw"</li>
-                </ol></td>
-            </tr><tr>
-              <td><img src="framework/img/workshop/slides/37.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/32.jpg" alt="slide"></td>
               <td> (Show learners how to save)
               <br><br>
               Make sure you click Publish after naming your sketch. You can keep editing it afterwards - just click on the "Edit" icon at the top to keep coding.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/38.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
+              <td> (Review X,Y coordinates using the Stretch &amp; Scuttle Unplugged Activity)
+                <br><br>
+                Processing can track the x,y position of our mouse, then use that number in our sketch.
+                <br><br>
+                E.g. We can take the Y coordinate of our mouse, then make the circle's width = that number. So the closer to the top of the canvas, the smaller the circle. As we move down (and Y increases) the circle should get larger. - Try it out! </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/34.jpg" alt="slide"></td>
               <td> Notice how there are two equal signs? When we use one equal sign we are telling the program what something equals, but when we use two equal signs we are *asking* (having the program check if it is true)
               <br><br>
               Q: What is that called again? When something is either True or False? A: Boolean.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/39.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/35.jpg" alt="slide"></td>
               <td> (Give learners a few minutes to try and solve this on their own. If someone figures it out, have them come up to the front and share their solution with the group. See next slide for possible solution.)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/40.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/36.jpg" alt="slide"></td>
               <td> We are basically drawing a new, blank background on top of our painted canvas.</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/41.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/37.jpg" alt="slide"></td>
+              <td> (Remind everyone to save &amp; click 'publish' again)</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/38.jpg" alt="slide"></td>
               <td> Remember "box" from before? What number did we set that variable to, again? (three!)
               <br><br>
               Anyone want to guess what this line of code looks like? (Naming the variable and setting it to a number, like before - see next slide for answer)</td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/42.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/39.jpg" alt="slide"></td>
               <td>The program needs to know the new variable before the draw function, so let's put it at the top. (int grow = 1;)
               <br><br>
               Next, we need to replace another number with "grow" inside of our paintbrush function.
@@ -287,7 +275,7 @@
               <br><br>
               Finally, if we want to reset the paintbrush size back to normal, we can make "grow" go back to equaling 1 when we clear the background, in "draw." (grow = 1;) </td>
             </tr><tr>
-              <td><img src="framework/img/workshop/slides/43.jpg" alt="slide"></td>
+              <td><img src="framework/img/workshop/slides/40.jpg" alt="slide"></td>
               <td> Let's mix things up a bit! We can make any number random using the Random() function.
               <br><br>
               Q: What is the largest number we can use for colours in RGB? A: 255.
@@ -302,13 +290,13 @@
         #Work Session
 
         * Give learners time to remix and extend the Paintbrush Code-Along activity (15-20 mins)
-        * Choose an activity from the <a href="https://docs.google.com/spreadsheets/d/1Wlzpvzc8O-z4DXQAeXOz7b3xDmDPLxwsq_DQqOIYM_o/edit?usp=sharing">activity list</a>. Suggested activity: Emoji Art. (be sure to paste the steps and solution into the slides ahead of time)
+        * Choose an activity from the <a href="https://docs.google.com/spreadsheets/d/1Wlzpvzc8O-z4DXQAeXOz7b3xDmDPLxwsq_DQqOIYM_o/edit?usp=sharing">activity list</a>. Suggested activity: Emoji Art. (If you are using another activity, be sure to paste the steps and solution into the slides ahead of time)
         * Get learners started by creating a new project (Click on the OpenProcessing icon, then “+ Create a Sketch”)
         * Get the project started code-along style - have volunteers come up and show the group how to set up the sketch (e.g.)
         * Go through the STEPS, then leave the STEPS slide up on the screen
-        * Check in with the group every 10-20 minutes to see if there are any questions. Have learners come up and share their solutions whenever possible.
+        * Check in with the group every 10 minutes to see if there are any questions. Have learners come up and share their solutions whenever possible.
         * Remind learners to save often!
-        * Leave time at the end for learners to share their projects with each other. Recommended: Have volunteers present their projects up front. If you're short on time, have a Gallery Walk, where learners open projects on their computers and walk around to see each other's work.
+        * Leave the last 10 mins for learners to share their projects with each other. Recommended: Have volunteers present their projects up front. If you're short on time, have a Gallery Walk, where learners open projects on their computers and walk around to see each other's work.
 
         <br>
         #Unplugged Activity (Optional)
@@ -318,7 +306,7 @@
         <br>
         #Closing Script
 
-        Who can tell me something new they learned today? (<strong>*Refer to slide 49 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
+        Who can tell me something new they learned today? (<strong>*Refer to slide 46 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
 
         You all did an amazing job and we’re really impressed with how great your projects turned out.
 
@@ -440,33 +428,19 @@
           Q: When we draw a circle on paper, what are the chances it won't be exact/perfect? What are the chances when a computer draws the circle for us?</td>
         </tr><tr>
           <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
-          <td> Here's an example of a project created with Processing.</td>
+          <td> The first example is what we usually picture when we are graphing in math. Our canvas in Processing is a bit different - it looks like the second example, where the starting point is in the top, left corner.
+          </td>
         </tr><tr>
           <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
-          <td> The first example is what we usually picture when we are graphing in math. Our canvas in Processing is a bit different - it looks like the second example, where the starting point is in the top, left corner.
-          <br><br>
-          (Review X,Y coordinates using the Stretch &amp; Scuttle Unplugged Activity)</td>
+          <td> Processing was created with pre-set things that it can do. For example, it knows what "setup" and "draw" mean, because it was already programmed to know these things.</td>
         </tr><tr>
           <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
-          <td> Processing was created with pre-set things that it can do. For example, it knows what "setup" and "draw" mean, because it was already programmed to know these things.</td>
-        </tr>
-        <tr>
-          <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
-          <td> All of these functions are listed in the Processing Reference. If we want to know what Processing can do, or what it already knows, we can check here.
-          <br><br>
-          Throughout the workshop, if you want to figure out how to do something, check the reference first! You'll probably be able to find it here by looking for key words. (e.g. if you want to draw a rectangle)</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
-          <td> Take a minute to think to yourself, then share with 1-2 people sitting near you.
-          <br><br>
-          (After 1-2 minutes, have everyone refocus up front and raise their hand to share what they came up with.)</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
-          <td> Q: If we want something to change colours in our project, where should we put the code? (A: in "draw" b/c we need it to happen more than once)
+          <td> Q: What is sequence?
+          <br>A: The order in which something happens (first A, then B, then C, etc.)
           <br><br>
           Q: If we are drawing a face, for example, what would we draw first? (A: First the head / whatever we want to be at the back of the canvas, then the eyes, nose, etc..)</td>
         </tr><tr>
-          <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+          <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
           <td> Computers like to communicate in Binary, which is made up of 1’s and 0’s. Usually 1 = True, and 0 = False.
           <br><br>
           Example prompts:
@@ -475,15 +449,15 @@
           <br>IF it is summer…   ELSE...
           </td>
         </tr><tr>
-          <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+          <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
           <td> This is similar to algebra in math - where we need to solve for x. Except we get to decide what x equals, then have the computer remember it for us.</td>
         </tr><tr>
-          <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+          <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
           <td> Here, we are creating a new variable, which is a number (aka "int"), and we're making it equal 3.
           <br><br>
           (Have everyone stand up and go through the tasks as a group - e.g. jump 3 times together)</td>
         </tr><tr>
-          <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+          <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
           <td> Before we begin coding in Processing, here are some things to keep in mind.</td>
         </tr>
       </table>
@@ -498,7 +472,7 @@
 
     * Go through each step using the slides (after "Let's Get Coding!") while the group follows along.
     * Make sure everyone selects the "Processing.js" Mode (top, right under Settings)
-    * If there is a whiteboard, write down main functions as you go, as a reference for the work session (or have a mentor help out with this)
+    * If there is a whiteboard, write down main functions as you go, as a reference for the work session (or have a mentor help out with this). <i>Review keyboard shortcuts (ctrl+C, ctrl+V, ctrl+F) and post these near the front, as well.</i>
     * While working through the Code-Along, open up openprocessing.org in another tab and paste/type the text after each step - Click on Run (play icon) to preview
     * Have the <a href="https://docs.google.com/document/d/1ngXh74VIzJTNLKaIPI4FnBT4j9XeuSDLPza8vH0divs/edit?usp=sharing">Code-Along Challenges</a> handy for mentors to give to learners that are ahead
     * Show learners how to save their work ("Save" > Name project > "Submit") and remind them to save often!
@@ -506,121 +480,123 @@
     ##Code-Along Slides
 
     <table style="font-size:2rem;">
-        <tr>
-          <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Slide</strong></td>
-          <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
-        </tr>
-        <tr>
-          <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
-          <td> Time for our Code-Along!</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
-          <td> We are using OpenProcessing to save our Processing sketches today. OpenProcessing is a free, online environment where you can share your digital art and explore projects created by other poeple. </td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
-          <td> (Leave this slide up while learners log in)</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
-          <td> *Very important*: Be sure to select "Processing.js" mode (under Settings). The P5.js starting code will no longer work, so we can delete this.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
-          <td> Type in this code, then click "Run" (play icon at top). This is how we set up our canvas.
+      <tr>
+        <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Slide</strong></td>
+        <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
+      </tr>
+      <tr>
+        <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+        <td> Time for our Code-Along!</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+        <td> We are using OpenProcessing to save our Processing sketches today. OpenProcessing is a free, online environment where you can share your digital art and explore projects created by other poeple. </td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+        <td> (Leave this slide up while learners log in)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/25.jpg" alt="slide"></td>
+        <td> *Very important*: Be sure to select "Processing.js" mode (under Settings). The P5.js starting code will no longer work, so we can delete this.</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/26.jpg" alt="slide"></td>
+        <td> Type in this code, then click "Run" (play icon at top). This is how we set up our canvas.
+        <br><br>
+        Try changing the numbers from 600 to something else.</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/27.jpg" alt="slide"></td>
+        <td> Let's draw something! What does this code do?
+        <br><br>
+        *Side note*: Everything behind the //backslashes are comments - this is for us humans to remember what each line of code means. You don't need to copy all of the comments on our slides, but it is helpful to make comments in your code when you need a reminder of what something does. </td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/28.jpg" alt="slide"></td>
+        <td> If we want to know what Processing can do, or what it already knows, we can check here.
+        <br><br>
+        Throughout the workshop, if you want to figure out how to do something, check the reference first! You'll probably be able to find it here by looking for key words. (e.g. if you want to draw a rectangle)
+        <br><br>(Show learners how to use Ctrl+F to search for key words in the reference)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/29.jpg" alt="slide"></td>
+        <td>  (Show learners where the ellipse is in the reference and encourage them to change the numbers for each value to something else - or try to draw another shape e.g. a rectangle)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
+        <td> Time to add some colour (woo!). Each of these options have the letters R,G,B in brackets... What does that mean?
+        <br><br>
+        (Open up colorpicker.com up front)
+        <br><br>
+        Q: What colour is (255,255,255)? A: White
+        <br>
+        Q: What colour is (0,0,0)? A: Black
+        <br><br>
+        RGB colours are additive, which means that adding full colour (255 of everything) makes white (pure light). When we take away all of the color we get black.</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/31.jpg" alt="slide"></td>
+        <td> We need to tell the computer what colour the circle is before we draw it. Try making two circles that are each a different colour. </td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/32.jpg" alt="slide"></td>
+        <td> (Show learners how to save)
+        <br><br>
+        Make sure you click Publish after naming your sketch. You can keep editing it afterwards - just click on the "Edit" icon at the top to keep coding.</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
+        <td> (Review X,Y coordinates using the Stretch &amp; Scuttle Unplugged Activity)
           <br><br>
-          Try changing the numbers from 600 to something else.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/30.jpg" alt="slide"></td>
-          <td> Let's draw something! What does this code do?
+          Processing can track the x,y position of our mouse, then use that number in our sketch.
           <br><br>
-          *Side note*: Everything behind the //backslashes are comments - this is for us humans to remember what each line of code means. You don't need to copy all of the comments on our slides, but it is helpful to make comments in your code when you need a reminder of what something does. </td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/31.jpg" alt="slide"></td>
-          <td> Our last bit of code drew a circle! Change the numbers for each value to something else - see if you can draw a circle in the middle of your canvas.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/32.jpg" alt="slide"></td>
-          <td> Time to add some colour (woo!). Each of these options have the letters R,G,B in brackets... What does that mean? (see next slide)</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
-          <td> (Open up colorpicker.com up front)
-          <br><br>
-          Q: What colour is (255,255,255)? A: White
-          <br><br>
-          Q: WHat colour is (0,0,0)? A: Black
-          <br><br>
-          RGB colours are additive, which means that adding full colour (255 of everything) makes white (pure light). When we take away all of the color we get black.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/34.jpg" alt="slide"></td>
-          <td> We need to tell the computer what colour the circle is before we draw it. Try making two circles that are each a different colour. </td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/35.jpg" alt="slide"></td>
-          <td> Processing can track the x,y position of our mouse, then use that number in our sketch.
-            <br><br>
-            E.g. We can take the Y coordinate of our mouse, then make the circle's width = that number. So the closer to the top of the canvas, the smaller the circle. As we move down (and Y increases) the circle should get larger. - Try it out! </td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/36.jpg" alt="slide"></td>
-          <td> We can teach Processing something new by creating our own function!
-            <ol>
-              <li>Let's name our function "paintbrush."</li>
-              <li>Next, we need to tell the program what "paintbrush" means / looks like.</li>
-              <li>Finally, we can call our new "paintbrush" function by typing it under "draw"</li>
-            </ol></td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/37.jpg" alt="slide"></td>
-          <td> (Show learners how to save)
-          <br><br>
-          Make sure you click Publish after naming your sketch. You can keep editing it afterwards - just click on the "Edit" icon at the top to keep coding.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/38.jpg" alt="slide"></td>
-          <td> Notice how there are two equal signs? When we use one equal sign we are telling the program what something equals, but when we use two equal signs we are *asking* (having the program check if it is true)
-          <br><br>
-          Q: What is that called again? When something is either True or False? A: Boolean.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/39.jpg" alt="slide"></td>
-          <td> (Give learners a few minutes to try and solve this on their own. If someone figures it out, have them come up to the front and share their solution with the group. See next slide for possible solution.)</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/40.jpg" alt="slide"></td>
-          <td> We are basically drawing a new, blank background on top of our painted canvas.</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/41.jpg" alt="slide"></td>
-          <td> Remember "box" from before? What number did we set that variable to, again? (three!)
-          <br><br>
-          Anyone want to guess what this line of code looks like? (Naming the variable and setting it to a number, like before - see next slide for answer)</td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/42.jpg" alt="slide"></td>
-          <td>The program needs to know the new variable before the draw function, so let's put it at the top. (int grow = 1;)
-          <br><br>
-          Next, we need to replace another number with "grow" inside of our paintbrush function.
-          <br><br>
-          Every time "draw" loops through, we want "grow" to increase - to change to a larger number - so it looks like our paintbrush is growing. (grow = grow + 1;)
-          <br><br>
-          Finally, if we want to reset the paintbrush size back to normal, we can make "grow" go back to equaling 1 when we clear the background, in "draw." (grow = 1;) </td>
-        </tr><tr>
-          <td><img src="framework/img/workshop/slides/43.jpg" alt="slide"></td>
-          <td> Let's mix things up a bit! We can make any number random using the Random() function.
-          <br><br>
-          Q: What is the largest number we can use for colours in RGB? A: 255.
-          <br><br>
-          To make our paintbrush change random rainbow colours, we can replace the fill value with random(255).
-          <br><br>
-          e.g. fill(random(255),random(255),random(255))</td>
-        </tr>
+          E.g. We can take the Y coordinate of our mouse, then make the circle's width = that number. So the closer to the top of the canvas, the smaller the circle. As we move down (and Y increases) the circle should get larger. - Try it out! </td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/34.jpg" alt="slide"></td>
+        <td> Notice how there are two equal signs? When we use one equal sign we are telling the program what something equals, but when we use two equal signs we are *asking* (having the program check if it is true)
+        <br><br>
+        Q: What is that called again? When something is either True or False? A: Boolean.</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/35.jpg" alt="slide"></td>
+        <td> (Give learners a few minutes to try and solve this on their own. If someone figures it out, have them come up to the front and share their solution with the group. See next slide for possible solution.)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/36.jpg" alt="slide"></td>
+        <td> We are basically drawing a new, blank background on top of our painted canvas.</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/37.jpg" alt="slide"></td>
+        <td> (Remind everyone to save &amp; click 'publish' again)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/38.jpg" alt="slide"></td>
+        <td> Remember "box" from before? What number did we set that variable to, again? (three!)
+        <br><br>
+        Anyone want to guess what this line of code looks like? (Naming the variable and setting it to a number, like before - see next slide for answer)</td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/39.jpg" alt="slide"></td>
+        <td>The program needs to know the new variable before the draw function, so let's put it at the top. (int grow = 1;)
+        <br><br>
+        Next, we need to replace another number with "grow" inside of our paintbrush function.
+        <br><br>
+        Every time "draw" loops through, we want "grow" to increase - to change to a larger number - so it looks like our paintbrush is growing. (grow = grow + 1;)
+        <br><br>
+        Finally, if we want to reset the paintbrush size back to normal, we can make "grow" go back to equaling 1 when we clear the background, in "draw." (grow = 1;) </td>
+      </tr><tr>
+        <td><img src="framework/img/workshop/slides/40.jpg" alt="slide"></td>
+        <td> Let's mix things up a bit! We can make any number random using the Random() function.
+        <br><br>
+        Q: What is the largest number we can use for colours in RGB? A: 255.
+        <br><br>
+        To make our paintbrush change random rainbow colours, we can replace the fill value with random(255).
+        <br><br>
+        e.g. fill(random(255),random(255),random(255))</td>
+      </tr>
     </table>
 
-  </script>
-</section>
-
+    </script>
+  </section>
 
 <section class="slide" data-toc data-markdown>
   <script type="text/template">
     #Work Session
 
     * Give learners time to remix and extend the Paintbrush Code-Along activity (15-20 mins)
-    * Choose an activity from the <a href="https://docs.google.com/spreadsheets/d/1Wlzpvzc8O-z4DXQAeXOz7b3xDmDPLxwsq_DQqOIYM_o/edit?usp=sharing">activity list</a>. Suggested activity: Emoji Art. (be sure to paste the steps and solution into the slides ahead of time)
+    * Choose an activity from the <a href="https://docs.google.com/spreadsheets/d/1Wlzpvzc8O-z4DXQAeXOz7b3xDmDPLxwsq_DQqOIYM_o/edit?usp=sharing">activity list</a>. Suggested activity: Emoji Art. (If you are using another activity, be sure to paste the steps and solution into the slides ahead of time)
     * Get learners started by creating a new project (Click on the OpenProcessing icon, then “+ Create a Sketch”)
     * Get the project started code-along style - have volunteers come up and show the group how to set up the sketch (e.g.)
     * Go through the STEPS, then leave the STEPS slide up on the screen
-    * Check in with the group every 10-20 minutes to see if there are any questions. Have learners come up and share their solutions whenever possible.
+    * Check in with the group every 10 minutes to see if there are any questions. Have learners come up and share their solutions whenever possible.
     * Remind learners to save often!
-    * Leave time at the end for learners to share their projects with each other. Recommended: Have volunteers present their projects up front. If you're short on time, have a Gallery Walk, where learners open projects on their computers and walk around to see each other's work.
+    * Leave the last 10 mins for learners to share their projects with each other. Recommended: Have volunteers present their projects up front. If you're short on time, have a Gallery Walk, where learners open projects on their computers and walk around to see each other's work.
+
   </script>
 </section>
 
@@ -638,7 +614,7 @@
   <script type="text/template">
     #Closing Script
 
-    Who can tell me something new they learned today? (<strong>*Refer to slide 49 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
+    Who can tell me something new they learned today? (<strong>*Refer to slide 46 for examples</strong>. If you don’t get any hands up, you can either ask a specific kid that was definitely engaged during the workshop, or review a couple of the key lessons in the workshop)
 
     You all did an amazing job and we’re really impressed with how great your projects turned out.
 
