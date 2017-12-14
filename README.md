@@ -1,5 +1,3 @@
-# NOT YET AVAILABLE TO CHAPTERS (TESTING)
-
 ## English: (Scroll down for French)
 
 # Girls Learning Code: Generative Art with Processing
