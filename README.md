@@ -4,7 +4,7 @@
 
 ## Quick Links
 
-Preview Lead Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-generative-art-with-processing/notes-en.html">ladieslearningcode.github.io/glc-generative-art-with-processing/notes-en.html</a>
+Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-generative-art-with-processing/notes-en.html">ladieslearningcode.github.io/glc-generative-art-with-processing/notes-en.html</a>
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/glc-generative-art-with-processing/slides-en.html">ladieslearningcode.github.io/glc-generative-art-with-processing/slides-en.html</a>
 
@@ -22,7 +22,7 @@ Youth Facilitator / Instructor Handbook: <a href="http://bit.ly/youth-facilitato
 1 Week to Go
 
 * Download this folder.
-* Read the Lead Instructor Notes for context (open in your browser).
+* Read the Instructor Notes for context (open in your browser).
 
 3 Days to Go
 
@@ -39,7 +39,7 @@ Youth Facilitator / Instructor Handbook: <a href="http://bit.ly/youth-facilitato
 
 1 Day to Go
 
-* Print the Lead Instructor Notes, <a href="https://docs.google.com/document/d/1ngXh74VIzJTNLKaIPI4FnBT4j9XeuSDLPza8vH0divs/edit?usp=sharing">Code-Along Challenges</a>, and Solution Sheet (found in Activity List) to bring to the workshop.
+* Print the Instructor Notes, <a href="https://docs.google.com/document/d/1ngXh74VIzJTNLKaIPI4FnBT4j9XeuSDLPza8vH0divs/edit?usp=sharing">Code-Along Challenges</a>, and Solution Sheet (found in Activity List) to bring to the workshop.
 
 ## During the Workshsop
 * Have the Notes accessible throughout the workshop, follow along for support.
